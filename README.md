@@ -1,6 +1,6 @@
-# react-todo-app
+# simple-react-todo-app
 
-This todo app is made using react(uses json-server to store the data)
+This simple todo app is made using react(uses json-server to store the data)
 
 
 
