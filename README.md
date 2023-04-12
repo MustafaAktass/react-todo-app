@@ -1,4 +1,4 @@
-# simple-react-todo-app
+# simple-todo-app
 
 This simple todo app is made using react(uses json-server to store the data)
 
