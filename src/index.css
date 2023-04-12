@@ -1,0 +1,105 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: blueviolet;
+}
+.inputBox{
+    position: relative;
+    margin-top: 10em;
+    margin-bottom: 1em;
+    width: 500px;
+    box-shadow: -3px 6px 4px #222; 
+}
+.inputBox input{
+    width: 100%;
+    padding: 10px;
+    border:1px solid rgba(255, 255, 255, 0.25);
+    background: blueviolet;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    font-size: 1em;
+    transition: 0.5s;
+}
+.inputBox span{
+    position: absolute;
+    left: 0%;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color:  rgba(255, 255, 255, 0.25);
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.inputBox input:focus ~ span
+{   
+    color: #0B2447;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.85em;
+    padding:  0 10px;
+    background: blueviolet;
+    letter-spacing: 0.2em;
+}
+.inputBox input:focus{
+    border: 1px solid #CE5959;
+}
+ul{
+    margin-top: 1em;
+    list-style: none;
+    width: 500px;
+}
+ul li{
+    cursor: pointer;
+    width: 100%;
+    background-color:#CE5959;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    box-shadow: -3px 6px 4px #222;
+}
+
+.line{
+    text-decoration: line-through;
+    transform: 0.5s;
+}
+.edit-input{
+    width: 100%;
+    background-color:#CE5959;
+    font-size: 1em;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style:hidden;
+    outline: none;
+}
+
+.todo-item{
+    cursor: pointer;
+    width: 100%;
+    background-color:#CE5959;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    box-shadow: -3px 6px 4px #222;
+}
